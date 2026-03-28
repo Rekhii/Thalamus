@@ -8,7 +8,8 @@
 
 BioMind-Thalamus is a spiking neural network simulation of the thalamic relay and gating system, built from biological first principles. It models thalamocortical relay populations, reticular nucleus (TRN) inhibitory gating, basal ganglia input integration, and corticothalamic feedback — all validated against experimental electrophysiology data.
 
-This is the second component in the BioMind architecture, receiving disinhibitory signals from [BioMind-BG](https://github.com/Rekhii/Biomind) (Component 1) and routing them toward cortical targets.
+This is the second component in the BioMind architecture, receiving disinhibitory signals from 
+[Basal-Ganglia](https://github.com/Rekhii/Basal-Ganglia) (Component 1) and routing them toward cortical targets.
 
 ## Architecture
 
