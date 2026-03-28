@@ -2,8 +2,6 @@
 
 **Biologically faithful thalamic relay and gating circuit in pure Python/NumPy**
 
-Component 2 of the [BioMind Conscious Intelligence Architecture](https://github.com/Rekhii/Biomind)
-
 ---
 
 ## Overview
@@ -13,6 +11,8 @@ BioMind-Thalamus is a spiking neural network simulation of the thalamic relay an
 This is the second component in the BioMind architecture, receiving disinhibitory signals from [BioMind-BG](https://github.com/Rekhii/Biomind) (Component 1) and routing them toward cortical targets.
 
 ## Architecture
+
+![Thalamus Circuit](image.png)
 
 ### Populations (6 total)
 
@@ -81,22 +81,12 @@ Runs all 5 validation experiments sequentially with console output showing firin
 - **Sleep spindle generation** uses asymmetric bipolar neuromodulation to allow TRN-relay oscillatory dynamics
 - **GPi inhibition** uses N=20 virtual presynaptic neurons to achieve biologically realistic inhibitory strength
 
-## BioMind Architecture
-
-BioMind is a biologically faithful Conscious Intelligence architecture with 11 components:
-
-**System 1 (Neural Substrate):**
-Basal Ganglia → **Thalamus** → Cortical Columns → Prefrontal Cortex → Hippocampus → Global Workspace
-
-**System 2 (Self-Improvement):**
-Architecture Inspector · Performance Monitor · Algorithm Inventor · Self-Modification Sandbox · Knowledge Compiler
 
 ## Author
 
 **Rekhi**
 - GitHub: [@Rekhii](https://github.com/Rekhii)
 - Medium: [@Reiki32](https://medium.com/@Reiki32)
-- Substack: [Neural Engineering](https://substack.com/@neuralengineering)
 
 ## License
 
